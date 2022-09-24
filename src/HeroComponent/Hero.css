@@ -1,0 +1,49 @@
+.hero  {
+    max-width: 1000px;
+    font-family: Poppins;
+    margin: auto;
+}
+
+.hero_photo_grid{
+    display: block;
+    width: 950px;
+    align-self: center;
+    margin: auto;
+}
+
+.hero_banner{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.hero_tag{
+    font-size: 20px;
+    display: flex;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        padding: 20px;
+    }
+    
+    .hero  {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero_photo_grid{
+        max-width: 400px;
+        align-self: center;
+    }
+    
+    .hero_banner {
+        margin-bottom: 16px;
+    }
+    
+    .hero_tag {
+        margin: 0px;
+    }
+}
+
